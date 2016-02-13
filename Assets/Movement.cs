@@ -38,6 +38,7 @@ public class Movement : MonoBehaviour
     private void move()
     {
         transform.position += moveDirection * Speed * Time.deltaTime;
+        //transform.Rotate(Vector3.right, Space.Self);
     }
 }
 
